@@ -1,0 +1,30 @@
+<!--index.wxml-->
+<view class="bcs-wrap">
+  <image src="../../images/campanile_night.jpg">
+  </image>
+</view>
+
+<view class="bcs-text-container">
+  <text class="bcs-title">BCS 2019</text>
+  <text class="bcs-subtitle">
+    innovation, technology, and culture
+  </text>
+  <video class="bcs-video" src="{{video_src}}" initial-time="0" autoplay="false" loop="false" muted="false"> 
+  </video>
+  <view class="bcs-info">
+    <text class="bcs-theme-text">
+      Pauli Ballroom, MLK Jr. Building, 
+      2475 Bancroft Way 
+      Berkeley, CA 94720 
+    </text>
+    <text>
+      Sun, October 6, 2019
+      8:30 AM – 6:00 PM PST 
+    </text>
+  </view>
+  <view class="bcs-btn-groups">
+    <van-button class="bcs-btn" type="info" size="normal">Join Event</van-button>
+    <van-button class="bcs-btn" type="default" size="normal">Contact Us</van-button>
+  </view>
+</view>
+

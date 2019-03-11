@@ -1,0 +1,6 @@
+<!--pages/course/course.wxml-->
+<view class="container">
+  <text>{{item.name}}</text>
+  <text>{{item.description}}</text>
+  <image src="{{item.img_link}}"></image>
+</view>

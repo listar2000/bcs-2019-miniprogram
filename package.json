@@ -1,0 +1,15 @@
+{
+  "name": "BCS-wechat-app",
+  "version": "1.0.0",
+  "description": "what?",
+  "main": "app.js",
+  "dependencies": {
+    "vant-weapp": "^0.5.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

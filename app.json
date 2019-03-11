@@ -1,0 +1,42 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/course/course"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#13227a",
+    "navigationBarTitleText": "BCS 2019",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar": {
+    "color": "#626567",
+    "selectedColor": "#13227a",
+    "backgroundColor": "#FBFBFB",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "Home",
+        "iconPath": "images/icons/book.png",
+        "selectedIconPath": "images/icons/book2.png"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "Sponsor",
+        "iconPath": "images/icons/dollar.png",
+        "selectedIconPath": "images/icons/dollar2.png"
+      },
+      {
+        "pagePath": "pages/course/course",
+        "text": "Invite",
+        "iconPath": "images/icons/addteam.png",
+        "selectedIconPath": "images/icons/addteam2.png"
+      }
+    ]
+  },
+  "usingComponents": {
+    "van-loading": "/miniprogram_npm/vant-weapp/loading/index"
+  }
+}
